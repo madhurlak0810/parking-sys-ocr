@@ -13,7 +13,7 @@ from firebase_admin import credentials
 from firebase_admin import db
 
 
-img = cv2.imread('istockphoto-458541565-612x612.jpg')
+img = cv2.imread('scorpio-n-exterior-front-view.webp')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 plt.imshow(cv2.cvtColor(gray, cv2.COLOR_BGR2RGB))
 
